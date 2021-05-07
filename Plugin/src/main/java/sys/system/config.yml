@@ -1,0 +1,12 @@
+settings:
+  allow-clan-chat: true
+  allow-owner-transfer: false
+  allow-rename: false
+
+defaults:
+  max-members: 5
+  min-members: 1
+  max-name-size: 5
+  min-name-size: 2
+  
+

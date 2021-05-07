@@ -6,12 +6,18 @@ public final class System extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        
+        loadConfig();
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+    }
+
+    public void loadConfig(){
+        getConfig().options().copyDefaults(true);
+        saveConfig();
+        
     }
 }
